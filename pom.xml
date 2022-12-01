@@ -25,15 +25,13 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    
-<dependency>
+    <dependency>
     <groupId>javax.servlet</groupId>
     <artifactId>servlet-api</artifactId>
     <version>3.0-alpha-1</version>
     <scope>provided</scope>
 </dependency>
-
-  </dependencies>
+</dependencies>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -85,7 +83,7 @@
            <archive>
               <manifest>
                  <addClasspath>true</addClasspath>
-                 <mainClass>junitjen.jenjunit.App</mainClass>
+                 <mainClass>acoecseb.CSEB5A87.App</mainClass>
               </manifest>
           </archive>
         </configuration>

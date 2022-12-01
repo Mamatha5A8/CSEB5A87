@@ -10,19 +10,9 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
-    public String getMessage(String name) {
-
-        StringBuilder result = new StringBuilder();
-
-        if (name == null || name.trim().length() == 0) {
-
-            result.append("Please provide a name!");
-
-        } else {
-
-            result.append("Hello " + name);
-
-        }
-        return result.toString();
+    public int add(int a,int b)
+    {
+    	return(a+b);
     }
+    
 }

@@ -1,6 +1,5 @@
 package acoecseb.CSEB5A87;
 
-import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
@@ -14,9 +13,9 @@ public class AppTest
      */
 	@Test
     public void test() {
-
-        App p = new App();
-        assertEquals("Hello ACOE", p.getMessage("GOOD MORNING"));
-
+		App a= new App();
+    	int actual=a.add(15,15);
+    	int expected=30;
+        assertEquals(expected,actual);
     }
 }
